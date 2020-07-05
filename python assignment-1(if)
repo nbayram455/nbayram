@@ -1,0 +1,6 @@
+name = str(input("Please enter your first name : ")).title().strip()
+password = "Payne"
+if name == "Nathan":
+    print("Hello, ", name,"\b!", "The password is : ", password)
+else :
+          print("Hello, ", name,"\b!", "See you later.")
