@@ -1,0 +1,12 @@
+fibonacci_list = []
+fibonacci_list.append(1)
+fibonacci_list.append(1)
+
+n = 0
+toplam = 0
+
+while toplam < 55:
+    toplam = fibonacci_list[n] + fibonacci_list[n + 1]
+    fibonacci_list.insert(n + 2, toplam)
+    n +=1
+print("Fibonacci numbers from 1 to 55 are : ", fibonacci_list)
